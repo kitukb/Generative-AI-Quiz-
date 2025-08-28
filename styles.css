@@ -1,0 +1,47 @@
+/* Make the table container scrollable on smaller screens */
+.table-responsive {
+    overflow-x: auto;
+    width: 100%;
+}
+
+/* Style the report table */
+.generativeaiv2-report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+/* Table headers */
+.generativeaiv2-report-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Table rows */
+.generativeaiv2-report-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Alternate row colors */
+.generativeaiv2-report-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect */
+.generativeaiv2-report-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Ensure proper display on small screens */
+@media screen and (max-width: 768px) {
+    .generativeaiv2-report-table th,
+    .generativeaiv2-report-table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
