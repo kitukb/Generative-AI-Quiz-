@@ -165,7 +165,7 @@ function generativeaiv2_process_response($userid, $quizid, $questionid, $selecte
 
 // curl https://api.openai.com/v1/completions \
 //   -H "Content-Type: application/json" \
-//   -H "Authorization: Bearer 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" \
+//   -H "Authorization: Bearer XXXXXXXXXXXXXXXXXXXXXXXXX" \
 //   -d '{
 //   "model": "gpt-3.5-turbo",
 //   "prompt": "Generate a question",
